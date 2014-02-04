@@ -1,0 +1,6 @@
+[info]
+author = Yan-ren Tsai
+version = 1.0
+puddletag_version = 1.0.2
+description = A puddletag plugin function for extending encoding converting.
+name = Extended EnConvert
