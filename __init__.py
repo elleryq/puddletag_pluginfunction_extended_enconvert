@@ -18,8 +18,9 @@ from puddlestuff.util import PluginFunction
 func = PluginFunction('Extended Convert from non-standard encoding',
                       extended_enconvert,
                       u'Extended Convert to encoding: $0, Encoding: $1',
-                      [('ComboBox: ', COMBO, 'big5', 'shiftjis', 'gb2312',
-                        'cp1250', 'cp1251', 'cp1252', 'cp1253', 'cp1254',
-                        'cp1255', 'cp1256', 'cp1257', 'cp1258')])
+                      [('ComboBox: ', COMBO, 'big5', 'shift-jis',
+                      'shift_jisx0213', 'gb2312', 'euc-jp', 'cp1250', 'cp1251',
+                      'cp1252', 'cp1253', 'cp1254', 'cp1255', 'cp1256',
+                      'cp1257', 'cp1258')])
 
 functions.update({'extended_enconvert': func})
